@@ -1,6 +1,6 @@
 # 3.Position thy self
 - In this challenge, I learnt more in-depth about how these directory paths work.
-
+```
 hacker@pathsposition-thy-self:$ /challenge/run  
 Incorrect...  
 You are not currently in the /usr/share/doc directory.  
@@ -13,7 +13,7 @@ hacker@pathsposition-thy-self:$ cd /usr/share/doc
 hacker@pathsposition-thy-self:/usr/share/doc$ /challenge/run  
 Correct!!!  
 /challenge/run is an absolute path, invoked from the right directory!  
-
+```
 
 ## Answer:
 **Flag:** pwn.college{YeV9JetyXgphh3YUuhVawNak95A.QX2QTN0wCO1kjNzEzW}
@@ -24,6 +24,7 @@ Correct!!!
 
 ## References
 - Tutorial video of "The file system"
+
 
 
 
