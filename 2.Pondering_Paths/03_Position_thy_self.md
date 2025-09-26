@@ -18,9 +18,10 @@ Correct!!!
 ## Answer:
 **Flag:** pwn.college{YeV9JetyXgphh3YUuhVawNak95A.QX2QTN0wCO1kjNzEzW}
 
-##Incorrect Tangents
+## Incorrect Tangents
 -I struggled initially to understand what they were telling in initially(that the directory they are showing is where we should go and then execute *challenge/run*)
 -I was confused about the difference between *Relative* and *absolute* path cuz to try in relative path i typed directly doc and it was just saying that "*doc is a directory*". Then i understood that u should write **cd** for any changes in the directory and the **/** makes the difference in *absolute* and *relative* path.
 
 ##References
 -Tutorial video of "The file system"
+
