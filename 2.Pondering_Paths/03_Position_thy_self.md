@@ -1,18 +1,18 @@
 # 3.Position thy self
 - In this challenge, I learnt more in-depth about how these directory paths work.
 
-hacker@pathsposition-thy-self:$ /challenge/run
-Incorrect...
-You are not currently in the /usr/share/doc directory.
-Please use the `cd` utility to change directory appropriately.
-hacker@pathsposition-thy-self:$ cd /doc
-bash: cd: /doc: No such file or directory
-hacker@pathsposition-thy-self:$ cd doc
-bash: cd: doc: No such file or directory
-hacker@pathsposition-thy-self:$ cd /usr/share/doc
-hacker@pathsposition-thy-self:/usr/share/doc$ /challenge/run
-Correct!!!
-/challenge/run is an absolute path, invoked from the right directory!
+hacker@pathsposition-thy-self:$ /challenge/run  
+Incorrect...  
+You are not currently in the /usr/share/doc directory.  
+Please use the `cd` utility to change directory appropriately.  
+hacker@pathsposition-thy-self:$ cd /doc  
+bash: cd: /doc: No such file or directory  
+hacker@pathsposition-thy-self:$ cd doc  
+bash: cd: doc: No such file or directory  
+hacker@pathsposition-thy-self:$ cd /usr/share/doc  
+hacker@pathsposition-thy-self:/usr/share/doc$ /challenge/run  
+Correct!!!  
+/challenge/run is an absolute path, invoked from the right directory!  
 
 
 ## Answer:
@@ -24,6 +24,7 @@ Correct!!!
 
 ## References
 - Tutorial video of "The file system"
+
 
 
 
