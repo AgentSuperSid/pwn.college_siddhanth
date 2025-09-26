@@ -4,17 +4,19 @@
 - Learnt the usage of **..** and also had a better understanding of this topic.
 
 ## My Solve:
+```
 hacker@pathsimplicit-relative-paths-from-:$ challenge/run  
 bash: challenge/run: No such file or directory  
 hacker@pathsimplicit-relative-paths-from-:$ cd ../..  
 hacker@pathsimplicit-relative-paths-from-:/$  challenge/run  
 Correct!!!  
 challenge/run is a relative path, invoked from the right directory!  
-
+```
 ## Answer:
 **Flag:** pwn.college{EBVfJLUSD8ufYmpImW5gnNUz0h-.QX5QTN0wCO1kjNzEzW}
 
 ## Incorrect Tangents
 
 - Here **challenge** was a directory so in order to make it relative path i didn't have to type **/**. I thought it was a program.
+
 
