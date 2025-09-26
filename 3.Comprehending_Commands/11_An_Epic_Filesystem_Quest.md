@@ -3,7 +3,7 @@
 
 ## My Solve
 
-```
+```bash
 hacker@commands~an-epic-filesystem-quest:~$ cd /  
 hacker@commands~an-epic-filesystem-quest:/$ ls  
 NOTE  bin  boot  challenge  dev  etc  flag  home  lib  lib32  lib64  libx32  media  mnt  nix  opt  proc  root  run  sbin  srv  sys  tmp  usr  var  
