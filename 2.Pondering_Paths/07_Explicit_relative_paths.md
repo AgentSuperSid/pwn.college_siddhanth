@@ -14,7 +14,7 @@ Correct!!!
 
 ## Incorrect Tangents
 - I kept misunderstanding thinking "." is only used for **cd**. Thats where i was stuck.
-
+```
 hacker@pathsexplicit-relative-paths-from-:/run$ /challenge/run  
 Incorrect...  
 You are not currently in the / directory.  
@@ -29,6 +29,7 @@ hacker@pathsexplicit-relative-paths-from-:/$ cd ././.
 hacker@pathsexplicit-relative-paths-from-:/$ challenge/run  
 Incorrect...  
 This challenge must be called with a relative path that explicitly starts with a `.`!  
+```
 
 
 
