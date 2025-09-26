@@ -3,18 +3,19 @@
 - So by using ~ initially it will automatically get expanded as /home/hacker and this will be taken as an absolute path even though */* wasn't used first.
 
 ## My Solve
-
+```
 hacker@paths~home-sweet-home:$ /challenge/run /   
 The argument you provided is not under your home directory!  
 hacker@paths~home-sweet-home:$ /challenge/run ~/~  
 Writing the file to /home/hacker/!  
 ... and reading it back to you:  
 pwn.college{goxf8AxR1IdgPGJ26yTRrmQn51W.QXzMDO0wCO1kjNzEzW}  
-
+```
 ## Answer
 **Flag:** pwn.college{goxf8AxR1IdgPGJ26yTRrmQn51W.QXzMDO0wCO1kjNzEzW}
 
 - I was thinking if I should go to **/** directory first and then use **~** when they were saying that the argument path should be inside the home directory.
 - Then after some attempts, I figured out it should be something like **~/**.....
 - Then, when I tried ~ after that, I got the answer.
+
 
