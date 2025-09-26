@@ -2,11 +2,11 @@
 - The challenge just gives us information on the usage of *ls -a* command to access the hidden files
 
 ## My Solve
-
+```
 hacker@commands~hidden-files:~$ cd /
 hacker@commands~hidden-files:/$ cat .flag-223813006523155
 pwn.college{cJ4q2RLioNlcm5GGcUx2_UicJFV.QXwUDO0wCO1kjNzEzW}
-
+```
 ## Answer
 **Flag:** pwn.college{cJ4q2RLioNlcm5GGcUx2_UicJFV.QXwUDO0wCO1kjNzEzW}
 
@@ -22,3 +22,4 @@ pwn.college{cJ4q2RLioNlcm5GGcUx2_UicJFV.QXwUDO0wCO1kjNzEzW}
 - I tried almost all the files and found all possible fake flags in the *~* directory rather than going for */* directory and searching for the flag file.
 
 - I was supposed to go to */* directory and then search for the flag file
+
