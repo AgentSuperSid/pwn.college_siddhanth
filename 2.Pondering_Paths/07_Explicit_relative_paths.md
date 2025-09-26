@@ -14,19 +14,20 @@ Correct!!!
 ## Incorrect Tangents
 - I kept misunderstanding thinking "." is only used for **cd**. Thats where i was stuck.
 
-hacker@paths~explicit-relative-paths-from-:/run$ /challenge/run  
+hacker@pathsexplicit-relative-paths-from-:/run$ /challenge/run  
 Incorrect...  
 You are not currently in the / directory.  
 Please use the `cd` utility to change directory appropriately.  
-hacker@paths~explicit-relative-paths-from-:/run$ cd /  
-hacker@paths~explicit-relative-paths-from-:/$ cd challenge/run  
+hacker@pathsexplicit-relative-paths-from-:/run$ cd /  
+hacker@pathsexplicit-relative-paths-from-:/$ cd challenge/run  
 bash: cd: challenge/run: Not a directory  
-hacker@paths~explicit-relative-paths-from-:/$ challenge/run  
+hacker@pathsexplicit-relative-paths-from-:/$ challenge/run  
 Incorrect...  
 This challenge must be called with a relative path that explicitly starts with a `.`!  
-hacker@paths~explicit-relative-paths-from-:/$ cd ././.  
-hacker@paths~explicit-relative-paths-from-:/$ challenge/run  
+hacker@pathsexplicit-relative-paths-from-:/$ cd ././.  
+hacker@pathsexplicit-relative-paths-from-:/$ challenge/run  
 Incorrect...  
 This challenge must be called with a relative path that explicitly starts with a `.`!  
+
 
 
