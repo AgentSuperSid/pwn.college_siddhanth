@@ -3,6 +3,7 @@
 
 ## My Solve
 
+```
 hacker@commands~an-epic-filesystem-quest:~$ cd /  
 hacker@commands~an-epic-filesystem-quest:/$ ls  
 NOTE  bin  boot  challenge  dev  etc  flag  home  lib  lib32  lib64  libx32  media  mnt  nix  opt  proc  root  run  sbin  srv  sys  tmp  usr  var  
@@ -36,7 +37,8 @@ SNIPPET-TRAPPED                 cavium-mix.txt               hisilicon-hns-dsaf.
 adi,adin.yaml                   cavium-pip.txt               hisilicon-hns-mdio.txt       mediatek,mt7620-gsw.txt  rockchip-dwmac.txt  
 hacker@commands~an-epic-filesystem-quest:/usr/lib/python3/dist-packages/jedi/third_party/typeshed/stdlib/2and3/ensurepip$ cat /opt/linux/linux-  5.4/Documentation/devicetree/bindings/net/SNIPPET-TRAPPED  
 Tubular find!  
-The next clue is in: /opt/linux/linux-5.4/drivers/dma/ipu  
+The next clue is in: /opt/linux/linux-5.4/drivers/dma/ipu
+```
 
 
 ## Answer
