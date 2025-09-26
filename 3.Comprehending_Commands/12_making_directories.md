@@ -15,7 +15,7 @@ hacker@commands~making-directories:/tmp/pwn$
 
 ## Answer
 
-**Flag:** pwn.college{cZCZJcjkUCasj2LBgppU6IWJlSB.QXxMDO0wCO1kjNzEzW}
+**Flag:** `pwn.college{cZCZJcjkUCasj2LBgppU6IWJlSB.QXxMDO0wCO1kjNzEzW}`
 
 ## What I learned
 - The usage of **mkdir** command, which is to create new directories.
