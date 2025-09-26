@@ -22,6 +22,7 @@ Correct!!!
 -I struggled initially to understand what they were telling in initially(that the directory they are showing is where we should go and then execute *challenge/run*)
 -I was confused about the difference between *Relative* and *absolute* path cuz to try in relative path i typed directly doc and it was just saying that "*doc is a directory*". Then i understood that u should write **cd** for any changes in the directory and the **/** makes the difference in *absolute* and *relative* path.
 
-##References
+## References
 -Tutorial video of "The file system"
+
 
