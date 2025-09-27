@@ -17,6 +17,6 @@ Correct usage! Your flag: pwn.college{4WQ2LFEsJeptS21foGZbnh5wmvz.QX1EDO0wCO1kjN
 ## Answer
 **Flag:** `pwn.college{4WQ2LFEsJeptS21foGZbnh5wmvz.QX1EDO0wCO1kjNzEzW}`
 
-## What I learned (optional)
-- i learnt the usage of **/**,**n** and **N** in the manual.
+## What I learned 
+- I learnt the usage of **/** ,**n** and **N** in the manual.
 
