@@ -4,7 +4,9 @@
 ## My solve
 **Flag:** `pwn.college{460zBPYTHE5d9MhmR2UIHSpQNy1.0lM3kjNxwCO1kjNzEzW}`
 
-- First, as they mentioned
+- As they mentioned, first we should go to */challenge/files* dir.
+- Then write the command `/challenge/run *p*`.
+-  The argument `*p*` will cover all the files which has the letter **p** in their names.
 ```bash
 hacker@globbing~multiple-globs:~$ cd /challenge/files
 hacker@globbing~multiple-globs:/challenge/files$ ls
@@ -15,5 +17,3 @@ You got it! Here is your flag!
 pwn.college{460zBPYTHE5d9MhmR2UIHSpQNy1.0lM3kjNxwCO1kjNzEzW}
 ```
 
-## What I learned
-- 
