@@ -1,0 +1,3 @@
+ Run: ssh-keygen-f key-N ’’-> Two files will be created: key and key.pub (Dont have to do once done)
+cat key.pub -> To get the Ubuntu ssh ID to paste in pwn.college setting. (Dont have to do it once done)
+`ssh -i key hacker@dojo.pwn.college` -> To connect the ubuntu terminal to the website
