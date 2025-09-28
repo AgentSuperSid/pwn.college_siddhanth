@@ -1,5 +1,5 @@
 # Helpful Programs
-- This challenge give us an introduction to use the **--help** argument to any argument to understand its usage.
+- This challenge give us an introduction to use the **--help** argument to any program to understand its usage and the list of legal arguments it has.
 
 ## My solve
 **Flag:** `pwn.college{IvsyxQ6S2szmL1VBgwQqZuabJTC.QX3IDO0wCO1kjNzEzW}`
