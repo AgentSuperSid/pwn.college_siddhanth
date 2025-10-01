@@ -5,11 +5,11 @@ In this challenge your supposed to apply the concepts you learnt in this module 
 **Flag:** `pwn.college{k-mNWeuU5mEacTe3e1urbYh7XLK.QXxQDM2wCO1kjNzEzW}`
 
 - We have to do both the stderr for `/challenge/the` and stdout for `/challenge/planet` .
-- So for stderr we can do `/challenge/hack 2> >(/challenge/the)` which will store the errors and for stdout we can do normal `|` usage.
-- So the command will come as `/challenge/hack 2> >(/challenge/the) | /challenge/planet`.
+- So for stderr we can do `/challenge/hack 2> >(/challenge/the)` which will store the errors and for stdout we can do normal `>` usage with `>()`.
+- So the command will come as `/challenge/hack 2> >(/challenge/the) > >(/challenge/planet)`.
 - 
 ```bash
-hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack 2> >(/challenge/the) | /challenge/planet
+hacker@piping~split-piping-stderr-and-stdout:~$ /challenge/hack 2> >(/challenge/the) > >(/challenge/planet)
 Congratulations, you have learned a redirection technique that even experts
 struggle with! Here is your flag:
 pwn.college{k-mNWeuU5mEacTe3e1urbYh7XLK.QXxQDM2wCO1kjNzEzW}
