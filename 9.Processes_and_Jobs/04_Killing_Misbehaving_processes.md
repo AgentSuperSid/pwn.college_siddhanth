@@ -4,7 +4,13 @@ in this challengewe are supposed to read and get the flag by killing a decoy pro
 ## My solve
 **Flag:** `pwn.college{ccWu59dbUlxYvoR6InX7QyQWYmQ.0FNzMDOxwCO1kjNzEzW}`
 
-- 
+- At first I didnt understand why even after killing the decoy process why were there decoy flags in `/tmp/flag_fifo`.
+- Also the cmd prmpt wasnt coming so I had to Ctrl+C to interrupt the process.
+- I later understood that it was because the file was a named pipe and named pipes should have both input and output in the same line, otherwise it would block the shell.
+- Then after further analysis I understood that the decoy flags that had been produced by the decoy program */challenge/decoy* was stored in `/tmp/flag_fifo`.
+- To drain them out we should `cat` it once, then run `challenge/run`.
+- This will send the flag to `/tmp/flag_fifo` and then by `cat /tmp/flag_fifo` the flag will appear.
+
 ```bash
 hacker@processes~killing-misbehaving-processes:~$ ps -ef
 UID          PID    PPID  C STIME TTY          TIME CMD
@@ -167,3 +173,4 @@ pwn.college{ccWu59dbUlxYvoR6InX7QyQWYmQ.0FNzMDOxwCO1kjNzEzW}
 ```
 
 ## What I learned 
+- I got a better understanding in concepts about named pipes and flow of stdin and stdout.
