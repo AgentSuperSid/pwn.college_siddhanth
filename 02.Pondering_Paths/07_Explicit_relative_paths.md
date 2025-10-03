@@ -1,0 +1,36 @@
+# 7.Explicit relative paths, from /
+- First you are supposed to go to **/** dir. and then from there open ./challenege/run to get the flag.
+
+
+## My Solve:
+```
+hacker@paths~explicit-relative-paths-from-:/$ ././challenge/run  
+Correct!!!  
+././challenge/run is a relative path, invoked from the right directory!  
+```
+## Answer:
+**Flag:** pwn.college{EwkGL6yjrotXrzcvpPstxdyl_kr.QXwUTN0wCO1kjNzEzW}
+
+
+## Incorrect Tangents
+- I kept misunderstanding thinking "." is only used for **cd**. Thats where i was stuck.
+```
+hacker@pathsexplicit-relative-paths-from-:/run$ /challenge/run  
+Incorrect...  
+You are not currently in the / directory.  
+Please use the `cd` utility to change directory appropriately.  
+hacker@pathsexplicit-relative-paths-from-:/run$ cd /  
+hacker@pathsexplicit-relative-paths-from-:/$ cd challenge/run  
+bash: cd: challenge/run: Not a directory  
+hacker@pathsexplicit-relative-paths-from-:/$ challenge/run  
+Incorrect...  
+This challenge must be called with a relative path that explicitly starts with a `.`!  
+hacker@pathsexplicit-relative-paths-from-:/$ cd ././.  
+hacker@pathsexplicit-relative-paths-from-:/$ challenge/run  
+Incorrect...  
+This challenge must be called with a relative path that explicitly starts with a `.`!  
+```
+
+
+
+
