@@ -1,7 +1,7 @@
 # Citadel CTF challenges
 - This includes some challenges which I had solved or assisted to solve
 
-## Challenge-1
+## track 8
 twj eys zpr ukm 'viamnwqw' bx lzgo: esmqqui{yyr_oshwwcm_bwupa} 
 The tracks play like whispers from a lost world, and you recognize it as a song from Panchiko’s latest studio album, particularly track no. 8. 
 Its title feels familiar, hinting at a famous cipher. Decrypt it by using the album name as your key and continue your ascent.
@@ -10,7 +10,7 @@ Its title feels familiar, hinting at a famous cipher. Decrypt it by using the al
 - Since this was a decryption quetion which means with had to decipher it using some method, it closely resembled to the word *Vigenère* which is a ciphering method.
 - Once it was deciphered we get the answer as `citadel{add_vinegar_twice}`.
 
-## Challenge-2
+## The Ripper
 It was a challenge where there was a gaurdian named **John** and he gave us 2 files, a word list and `$2a$04$RNoyoWAcW0StwSri4YN1Eeb2j1gBNKutDOMxsLzfyfSvB/ghMHToa` with which we had to find the flag.
 
 - The name and the format gave the clue that we had to use `John the ripper` program to find the correct flag.
