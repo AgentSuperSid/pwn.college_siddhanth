@@ -1,4 +1,5 @@
 # Executable Files
+In this challenge we should give ourselves execution permission to */challenge/run* and then execute it to get the flag.
 
 ## My solve
 **Flag:** `pwn.college{AWo5yif7UK1wV-JKxa6v65FY_tJ.QXyEjN0wCO1kjNzEzW}`
