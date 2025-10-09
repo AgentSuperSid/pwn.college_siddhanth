@@ -19,7 +19,7 @@ It was a challenge where there was a gaurdian named **John** and he gave us 2 fi
 - Then `john --show "/mnt/c/Users/Anvitha/OneDrive/Desktop/hash.txt"` to show us the flag.
 - It showed the password of a user something like `fake_flag_4_f4ke_players` which was supposed to be the part inside `{}` of the flag.
 
-## What I learnered
+## What I learned
 - I saw the vast world of CTF and there were so many things to learn and use to solve these interesting and unique challenges.
 - How teeamwork plays an important role in these challenges.
 - Learnt to use many new tools like `Burp`, `IDA` etc.
