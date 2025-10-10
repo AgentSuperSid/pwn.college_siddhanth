@@ -10,6 +10,9 @@ When you power it on, the sound fills the chamber. The tracks play like whispers
 ## Solve
 - First I did a little research about the **Panchiko** rock band and found out that the Album they were referring to was named *Vinegar*.
 - Since this was a decryption quetion which means with had to decipher it using some method, it closely resembled to the word *Vigenère* which is a ciphering method.
+- We tried a couple of album names as key, then we tried the latest album of their's, **ginkgo**.
+- We then proceeded to the next step. Here it was clearly mentioned to use key as **panchiko**.
+- ``now use the key 'panchiko' on flag: rigckmv{osd_ikumqog_tjkjm}``
 - Once it was deciphered we get the answer as `citadel{add_vinegar_twice}`.
 - **Flag:** `citadel{add_vinegar_twice}`
 
